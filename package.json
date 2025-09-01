@@ -1,0 +1,32 @@
+{
+  "name": "anonymous-reporting-system",
+  "version": "1.0.0",
+  "description": "Privacy-focused anonymous reporting platform using FHE encryption",
+  "main": "index.js",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "deploy": "npx hardhat run scripts/deploy.js --network sepolia",
+    "test": "npx hardhat test",
+    "node": "npx hardhat node",
+    "dev": "npx http-server public -p 3000 -c-1 --cors"
+  },
+  "keywords": [
+    "blockchain",
+    "anonymous",
+    "reporting",
+    "privacy",
+    "fhe",
+    "zama"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.19.0"
+  },
+  "dependencies": {
+    "@fhevm/solidity": "^0.7.0",
+    "ethers": "^6.8.0",
+    "dotenv": "^16.3.1"
+  }
+}
