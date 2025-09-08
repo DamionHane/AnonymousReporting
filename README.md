@@ -95,7 +95,7 @@ isAuthorizedInvestigator(address _user)
 
 ### Demo Video
 
-A comprehensive demonstration video showcasing the complete workflow is available, including:
+AnonymousReporting.mp4 showcasing the complete workflow is available, including:
 - Wallet connection
 - Report submission process
 - Progress tracking functionality
@@ -103,15 +103,8 @@ A comprehensive demonstration video showcasing the complete workflow is availabl
 - Real-time statistics dashboard
 
 ### On-Chain Transaction Screenshots
+AnonymousReporting.png
 
-#### Report Submission Transaction
-Transaction demonstrating successful report submission with encrypted data stored on-chain, showing gas fees and confirmation details.
-
-#### Status Update Transaction
-Blockchain transaction showing an authorized investigator updating report status, with event logs confirming the status change.
-
-#### Investigation Notes Transaction
-Transaction demonstrating the addition of encrypted investigation notes, maintaining privacy while recording progress.
 
 ## 🛠️ Technology Stack
 
